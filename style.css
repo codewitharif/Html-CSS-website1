@@ -46,7 +46,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 5px;
   font-size: 25px;
   border: 1px solid transparent;
 }
@@ -165,6 +165,23 @@ ul li :hover {
     border-radius: 10px;
   }
 }
+@media screen and (max-width: 696px) {
+  .buttons {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .title h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .btn {
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
 
 @media screen and (max-width: 371px) {
   .buttons {
