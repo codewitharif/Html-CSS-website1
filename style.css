@@ -167,6 +167,7 @@ ul li :hover {
 
 @media screen and (max-width: 371px) {
   .buttons {
+    width: 70%;
     margin-top: 30px;
     flex-direction: column;
   }
