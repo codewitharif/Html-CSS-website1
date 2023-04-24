@@ -129,7 +129,7 @@ ul li :hover {
 @media screen and (max-width: 850px) {
   .buttons {
     position: absolute;
-    top: 65%;
+    top: 64%;
     left: 50%;
     display: flex;
 
