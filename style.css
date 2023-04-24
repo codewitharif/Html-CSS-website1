@@ -157,3 +157,20 @@ ul li :hover {
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 371px) {
+  .buttons {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .title h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
