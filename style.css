@@ -17,6 +17,7 @@
   max-width: 1200px;
   margin: auto;
   display: flex;
+  padding: 40px;
   justify-content: space-between;
 }
 
