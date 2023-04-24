@@ -124,12 +124,15 @@ ul li :hover {
     margin-right: auto;
     padding: 20px;
   }
+  .btn {
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .buttons {
     position: absolute;
-    top: 64%;
+    top: 62%;
     left: 50%;
     display: flex;
 
@@ -145,6 +148,9 @@ ul li :hover {
     flex-direction: column;
     align-items: center;
   }
+  .btn {
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 694px) {
@@ -155,6 +161,7 @@ ul li :hover {
 
   .btn {
     margin-top: 10px;
+    border-radius: 10px;
   }
 }
 
@@ -172,5 +179,6 @@ ul li :hover {
 
   .btn {
     margin-top: 10px;
+    border-radius: 10px;
   }
 }
